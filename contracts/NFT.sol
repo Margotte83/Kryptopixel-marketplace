@@ -1,5 +1,10 @@
 // contracts/NFT.sol
-// SPDX-License-Identifier: MIT OR Apache-2.0
+/// SPDX-License-Identifier: MIT OR LGPL-3.0-or-later
+
+/// @title Kryptopixel Marketplace
+/// @author Marjorie Ngoupende
+/// @notice Contract inspired by existing codes from the Ethereum community.
+/// @dev The marketplace is a collection of NFTs that can be bought and sold.
 pragma solidity ^0.8.3;
 
 import "@openzeppelin/contracts/utils/Counters.sol";

@@ -1,5 +1,10 @@
-// contracts/Market.sol
-// SPDX-License-Identifier: MIT OR Apache-2.0
+/// contracts/Market.sol
+/// SPDX-License-Identifier: MIT OR LGPL-3.0-or-later
+
+/// @title Kryptopixel Marketplace
+/// @author Marjorie Ngoupende
+/// @notice Contract inspired by existing codes from the Ethereum community.
+/// @dev This contract is used to create and manage the marketplace.
 pragma solidity ^0.8.3;
 
 import "@openzeppelin/contracts/utils/Counters.sol";
