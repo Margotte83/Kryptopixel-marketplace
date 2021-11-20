@@ -2,7 +2,7 @@ require("@nomiclabs/hardhat-waffle");
 require("hardhat-deploy-ethers");
 const fs = require('fs');
 const privateKey = fs.readFileSync(".env").toString().trim() || "";
-//const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
+const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -26,10 +26,10 @@ module.exports = {
       accounts: [privateKey]
     },
 
-    // mumbai: {
-    //   url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
-    //   accounts: [privateKey]
-    // },
+    mumbai: {
+      url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
+      accounts: [privateKey]
+    },
     // matic: {
     //   url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
     //   accounts: [privateKey]

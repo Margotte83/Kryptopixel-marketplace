@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "deploy": "npx hardhat run scripts/deploy.js",
+    "deploy:mumbai": "npx hardhat run --network mumbai scripts/deploy.js",
     "deploy:spark": "npx hardhat run --network spark scripts/deploy.js",
     "dev": "next dev",
     "build": "next build",
