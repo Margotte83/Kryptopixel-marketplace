@@ -6,10 +6,10 @@
     "deploy": "npx hardhat run scripts/deploy.js",
     "deploy:mumbai": "npx hardhat run --network mumbai scripts/deploy.js",
     "deploy:spark": "npx hardhat run --network spark scripts/deploy.js",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "npx next dev",
+    "build": "npx next build",
+    "start": "npx next start",
+    "lint": "npx next lint"
   },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
