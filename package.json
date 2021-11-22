@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "compile": "npx hardhat compile",
+    "accounts": "npx hardhat accounts",
     "deploy": "npx hardhat run scripts/deploy.js",
     "deploy:mumbai": "npx hardhat run --network mumbai scripts/deploy.js",
     "deploy:spark": "npx hardhat run --network spark scripts/deploy.js",
