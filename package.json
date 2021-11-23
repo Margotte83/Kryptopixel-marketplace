@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "compile": "npx hardhat compile",
+    "accounts": "npx hardhat accounts",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "deploy:mumbai": "npx hardhat run --network mumbai scripts/deploy.js",
+    "deploy:spark": "npx hardhat run --network spark scripts/deploy.js",
+    "dev": "npx next dev",
+    "build": "npx next build",
+    "start": "npx next start",
+    "lint": "npx next lint"
   },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
@@ -27,6 +32,7 @@
     "autoprefixer": "^10.4.0",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.3",
+    "hardhat-deploy-ethers": "^0.3.0-beta.11",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19"
   }
