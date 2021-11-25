@@ -2,9 +2,9 @@
 
 export default function Footer() {
   return (
-    <footer class="text-gray-600 body-font">
+    <footer className="text-gray-600 body-font">
       <div
-        class="
+        className="
         container
         px-5
         py-24
@@ -17,7 +17,7 @@ export default function Footer() {
       "
       >
         <div
-          class="
+          className="
           flex-grow flex flex-wrap
           md:pl-20
           -mb-10
@@ -27,9 +27,9 @@ export default function Footer() {
           text-center
         "
         >
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2
-              class="
+              className="
               title-font
               font-medium
               text-gray-900
@@ -40,20 +40,20 @@ export default function Footer() {
             >
               Docs
             </h2>
-            <nav class="list-none mb-10">
+            <nav className="list-none mb-10">
               <li>
                 <a
                   href="https://polygon.technology/"
-                  class="text-gray-600 hover:text-pink-400"
+                  className="text-gray-600 hover:text-pink-400"
                 >
                   Developers
                 </a>
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2
-              class="
+              className="
               title-font
               font-medium
               text-gray-900
@@ -64,27 +64,27 @@ export default function Footer() {
             >
               Community
             </h2>
-            <nav class="list-none mb-10">
+            <nav className="list-none mb-10">
               <li>
-                <a href="" class="text-gray-600 hover:text-pink-400">
+                <a href="" className="text-gray-600 hover:text-pink-400">
                   Facebook
                 </a>
               </li>
               <li>
-                <a href="" class="text-gray-600 hover:text-pink-400">
+                <a href="" className="text-gray-600 hover:text-pink-400">
                   Instagram
                 </a>
               </li>
               <li>
-                <a href="" class="text-gray-600 hover:text-pink-400">
+                <a href="" className="text-gray-600 hover:text-pink-400">
                   Twitter
                 </a>
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2
-              class="
+              className="
               title-font
               font-medium
               text-gray-900
@@ -95,20 +95,20 @@ export default function Footer() {
             >
               More
             </h2>
-            <nav class="list-none mb-10">
+            <nav className="list-none mb-10">
               <li>
                 <a
                   href="https://github.com/Margotte83/Kryptopixel-marketplace"
-                  class="text-gray-600 hover:text-pink-400"
+                  className="text-gray-600 hover:text-pink-400"
                 >
                   Github
                 </a>
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2
-              class="
+              className="
               title-font
               font-medium
               text-gray-900
@@ -119,11 +119,11 @@ export default function Footer() {
             >
               Inspiration
             </h2>
-            <nav class="list-none mb-10">
+            <nav className="list-none mb-10">
               <li>
                 <a
                   href="https://pixelchain.art/"
-                  class="text-gray-600 hover:text-pink-400"
+                  className="text-gray-600 hover:text-pink-400"
                 >
                   PixelChain
                 </a>
@@ -131,10 +131,10 @@ export default function Footer() {
             </nav>
           </div>
         </div>
-        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a
             href=""
-            class="
+            className="
             flex
             title-font
             font-medium
@@ -144,20 +144,20 @@ export default function Footer() {
             text-gray-900
           "
           >
-            <i class="fas fa-cubes fa-lg text-purple-500"></i>
-            <span class="ml-3 text-xl">
+            <i className="fas fa-cubes fa-lg text-purple-500"></i>
+            <span className="ml-3 text-xl">
               How to use Kryptopixel marketplace?
             </span>
           </a>
-          <p class="mt-2 text-sm text-gray-500">
+          <p className="mt-2 text-sm text-gray-500">
             Connect your Metamask wallet to use this DApp. Polygon or Fuse
             network is required.
           </p>
         </div>
       </div>
-      <div class="bg-black">
+      <div className="bg-black">
         <div
-          class="
+          className="
           container
           mx-auto
           py-4
@@ -166,18 +166,18 @@ export default function Footer() {
           sm:flex-row
         "
         >
-          <p class="text-green-500 text-sm text-center sm:text-left">
+          <p className="text-green-500 text-sm text-center sm:text-left">
             Kryptopixel Marketplace © 2021 Copyright | Built with ❤️ by :
             <a
               href="https://www.linkedin.com/in/marjorie-ngoupende-dev/"
-              class="text-gray-100 ml-1 hover:text-pink-400"
+              className="text-gray-100 ml-1 hover:text-pink-400"
               target="_blank"
             >
               Marjorie Ngoupende
             </a>
           </p>
           <span
-            class="
+            className="
             inline-flex
             sm:ml-auto sm:mt-0
             mt-2
@@ -185,20 +185,20 @@ export default function Footer() {
             sm:justify-start
           "
           >
-            <a href="" class="text-gray-500">
-              <i class="fab fa-facebook-f"></i>
+            <a href="" className="text-gray-500">
+              <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="" class="ml-3 text-gray-500">
-              <i class="fab fa-twitter"></i>
+            <a href="" className="ml-3 text-gray-500">
+              <i className="fab fa-twitter"></i>
             </a>
-            <a href="" class="ml-3 text-gray-500">
-              <i class="fab fa-linkedin-in"></i>
+            <a href="" className="ml-3 text-gray-500">
+              <i className="fab fa-linkedin-in"></i>
             </a>
-            <a href="" class="ml-3 text-gray-500">
-              <i class="fab fa-youtube"></i>
+            <a href="" className="ml-3 text-gray-500">
+              <i className="fab fa-youtube"></i>
             </a>
-            <a href="" class="ml-3 text-gray-500">
-              <i class="fab fa-instagram"></i>
+            <a href="" className="ml-3 text-gray-500">
+              <i className="fab fa-instagram"></i>
             </a>
           </span>
         </div>
