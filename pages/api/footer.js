@@ -171,7 +171,7 @@ export default function Footer() {
             <a
               href="https://www.linkedin.com/in/marjorie-ngoupende-dev/"
               className="text-gray-100 ml-1 hover:text-pink-400"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Marjorie Ngoupende
             </a>
