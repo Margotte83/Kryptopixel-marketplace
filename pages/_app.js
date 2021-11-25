@@ -36,7 +36,7 @@ function Marketplace({ Component, pageProps }) {
           width="350"
           src="./assets/light-bulb.png"
         />
-        <div class="flex justify-around ...">
+        <div className="flex justify-around ...">
           <div className="text-2xl mb-4 text-gray-900 font-bold">
             Create and sell a digital asset
           </div>
