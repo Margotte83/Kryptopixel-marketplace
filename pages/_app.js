@@ -30,22 +30,22 @@ function Marketplace({ Component, pageProps }) {
           </Link>
         </div>
       </nav>
-      <div className="container mx-auto px-5 py-4">
-        <image
-          className="rounded mt-4"
-          width="350"
-          src="./assets/light-bulb.png"
-        />
-        <div className="flex justify-around ...">
-          <div className="text-2xl mb-4 text-gray-900 font-bold">
-            Create and sell a digital asset
-          </div>
-          <div className="text-2xl mb-4 text-gray-900 font-bold">
-            Visit your dashboard
-          </div>
-          <div className="text-2xl mb-4 text-gray-900 font-bold">
-            Buy and see your NFTS
-          </div>
+      <br />
+      <h1 className=" text-center text-6xl font-normal leading-normal mt-0 mb-2 text-pink-800">
+        Welcome to Kryptopixel Marketplace
+      </h1>
+      <br />
+      <hr className="border-b border-green-400 w-1/2 mx-auto" />
+      <br />
+      <div className="flex justify-evenly">
+        <div className="text-2xl mb-4 text-gray-900 font-bold">
+          Create and sell a digital asset
+        </div>
+        <div className="text-2xl mb-4 text-gray-900 font-bold">
+          Visit your dashboard
+        </div>
+        <div className="text-2xl mb-4 text-gray-900 font-bold">
+          Buy and see your NFTS
         </div>
       </div>
       <Component {...pageProps} />

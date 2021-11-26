@@ -43,7 +43,7 @@ export default function Footer() {
             <nav className="list-none mb-10">
               <li>
                 <a
-                  href="https://polygon.technology/"
+                  href="https://docs.polygon.technology/docs/develop/getting-started"
                   className="text-gray-600 hover:text-pink-400"
                 >
                   Developers
@@ -62,21 +62,30 @@ export default function Footer() {
               mb-3
             "
             >
-              Community
+              Social networks
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a href="" className="text-gray-600 hover:text-pink-400">
+                <a
+                  href="https://www.facebook.com/marjorie.margotte83/"
+                  className="text-gray-600 hover:text-pink-400"
+                >
                   Facebook
                 </a>
               </li>
               <li>
-                <a href="" className="text-gray-600 hover:text-pink-400">
+                <a
+                  href="https://www.instagram.com/margotte.83/"
+                  className="text-gray-600 hover:text-pink-400"
+                >
                   Instagram
                 </a>
               </li>
               <li>
-                <a href="" className="text-gray-600 hover:text-pink-400">
+                <a
+                  href="https://twitter.com/MarjorieN83"
+                  className="text-gray-600 hover:text-pink-400"
+                >
                   Twitter
                 </a>
               </li>
@@ -93,7 +102,7 @@ export default function Footer() {
               mb-3
             "
             >
-              More
+              Open source
             </h2>
             <nav className="list-none mb-10">
               <li>
@@ -147,12 +156,12 @@ export default function Footer() {
             <i className="fas fa-cubes fa-lg text-purple-500"></i>
             <span className="ml-3 text-xl">
               How to use Kryptopixel marketplace?
+              <p className="mt-2 text-ms text-pink-500">
+                Connect your Metamask wallet to use this DApp. Polygon-Mainnet
+                or Mumbai-Testnet network is required.
+              </p>
             </span>
           </a>
-          <p className="mt-2 text-sm text-gray-500">
-            Connect your Metamask wallet to use this DApp. Polygon or Fuse
-            network is required.
-          </p>
         </div>
       </div>
       <div className="bg-black">
@@ -171,7 +180,8 @@ export default function Footer() {
             <a
               href="https://www.linkedin.com/in/marjorie-ngoupende-dev/"
               className="text-gray-100 ml-1 hover:text-pink-400"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Marjorie Ngoupende
             </a>
