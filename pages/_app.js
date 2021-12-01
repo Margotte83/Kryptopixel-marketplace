@@ -33,7 +33,7 @@ function Marketplace({ Component, pageProps }) {
       </nav>
       <br />
       <h1 className=" text-center text-6xl font-normal leading-normal mt-0 mb-2 text-pink-800">
-      Films from future 
+      Films from future 🍿
       </h1>
       <br />
       <hr className="border-b border-green-400 w-1/2 mx-auto" />
