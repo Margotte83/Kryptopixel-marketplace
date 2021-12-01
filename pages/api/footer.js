@@ -32,7 +32,7 @@ export default function Footer() {
               className="
               title-font
               font-medium
-              text-gray-900
+              text-green-400
               tracking-widest
               text-sm
               mb-3
@@ -44,7 +44,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://docs.polygon.technology/docs/develop/getting-started"
-                  className="text-gray-600 hover:text-pink-400"
+                  className="text-white hover:text-pink-400"
                 >
                   Developers
                 </a>
@@ -56,7 +56,7 @@ export default function Footer() {
               className="
               title-font
               font-medium
-              text-gray-900
+              text-green-400
               tracking-widest
               text-sm
               mb-3
@@ -67,24 +67,27 @@ export default function Footer() {
             <nav className="list-none mb-10">
               <li>
                 <a
-                  href="https://www.facebook.com/marjorie.margotte83/"
-                  className="text-gray-600 hover:text-pink-400"
+                  href=" https://www.facebook.com/cinecapsuleofficial
+                  "
+                  className="text-white hover:text-pink-400"
                 >
                   Facebook
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/margotte.83/"
-                  className="text-gray-600 hover:text-pink-400"
+                  href="https://www.instagram.com/cine_capsule/
+                  "
+                  className="text-white hover:text-pink-400"
                 >
                   Instagram
                 </a>
               </li>
               <li>
                 <a
-                  href="https://twitter.com/MarjorieN83"
-                  className="text-gray-600 hover:text-pink-400"
+                  href=" https://twitter.com/cine_capsule
+                  "
+                  className="text-white hover:text-pink-400"
                 >
                   Twitter
                 </a>
@@ -96,7 +99,7 @@ export default function Footer() {
               className="
               title-font
               font-medium
-              text-gray-900
+              text-green-400
               tracking-widest
               text-sm
               mb-3
@@ -108,7 +111,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://github.com/Margotte83/Kryptopixel-marketplace"
-                  className="text-gray-600 hover:text-pink-400"
+                  className="text-white hover:text-pink-400"
                 >
                   Github
                 </a>
@@ -120,7 +123,7 @@ export default function Footer() {
               className="
               title-font
               font-medium
-              text-gray-900
+              text-green-400
               tracking-widest
               text-sm
               mb-3
@@ -132,7 +135,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://pixelchain.art/"
-                  className="text-gray-600 hover:text-pink-400"
+                  className="text-white hover:text-pink-400"
                 >
                   PixelChain
                 </a>
@@ -150,12 +153,12 @@ export default function Footer() {
             items-center
             md:justify-start
             justify-center
-            text-gray-900
+            text-green-400
           "
           >
             <i className="fas fa-cubes fa-lg text-purple-500"></i>
             <span className="ml-3 text-xl">
-              How to use Kryptopixel marketplace?
+              How to use CineCapsule 3.0?
               <p className="mt-2 text-ms text-pink-500">
                 Connect your Metamask wallet to use this DApp. Polygon-Mainnet
                 or Mumbai-Testnet network is required.
@@ -176,7 +179,7 @@ export default function Footer() {
         "
         >
           <p className="text-green-500 text-sm text-center sm:text-left">
-            Kryptopixel Marketplace © 2021 Copyright | Built with ❤️ by :
+            CineCapsule 3.0 © 2021 Copyright | Built with ❤️ by :
             <a
               href="https://www.linkedin.com/in/marjorie-ngoupende-dev/"
               className="text-gray-100 ml-1 hover:text-pink-400"
