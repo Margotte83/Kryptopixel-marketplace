@@ -32,7 +32,7 @@ export default function Footer() {
               className="
               title-font
               font-medium
-              text-green-400
+              text-gray-400
               tracking-widest
               text-sm
               mb-3
@@ -44,7 +44,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://docs.polygon.technology/docs/develop/getting-started"
-                  className="text-white hover:text-pink-400"
+                  className="text-white hover:text-red-400"
                 >
                   Developers
                 </a>
@@ -56,7 +56,7 @@ export default function Footer() {
               className="
               title-font
               font-medium
-              text-green-400
+              text-gray-400
               tracking-widest
               text-sm
               mb-3
@@ -69,7 +69,7 @@ export default function Footer() {
                 <a
                   href=" https://www.facebook.com/cinecapsuleofficial
                   "
-                  className="text-white hover:text-pink-400"
+                  className="text-white hover:text-red-400"
                 >
                   Facebook
                 </a>
@@ -78,7 +78,7 @@ export default function Footer() {
                 <a
                   href="https://www.instagram.com/cine_capsule/
                   "
-                  className="text-white hover:text-pink-400"
+                  className="text-white hover:text-red-400"
                 >
                   Instagram
                 </a>
@@ -87,7 +87,7 @@ export default function Footer() {
                 <a
                   href=" https://twitter.com/cine_capsule
                   "
-                  className="text-white hover:text-pink-400"
+                  className="text-white hover:text-red-400"
                 >
                   Twitter
                 </a>
@@ -99,7 +99,7 @@ export default function Footer() {
               className="
               title-font
               font-medium
-              text-green-400
+              text-gray-400
               tracking-widest
               text-sm
               mb-3
@@ -111,7 +111,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://github.com/Margotte83/Kryptopixel-marketplace"
-                  className="text-white hover:text-pink-400"
+                  className="text-white hover:text-red-400"
                 >
                   Github
                 </a>
@@ -123,7 +123,7 @@ export default function Footer() {
               className="
               title-font
               font-medium
-              text-green-400
+              text-gray-400
               tracking-widest
               text-sm
               mb-3
@@ -135,7 +135,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://pixelchain.art/"
-                  className="text-white hover:text-pink-400"
+                  className="text-white hover:text-red-400"
                 >
                   PixelChain
                 </a>
@@ -153,13 +153,13 @@ export default function Footer() {
             items-center
             md:justify-start
             justify-center
-            text-green-400
+            text-yellow-300
           "
           >
             <i className="fas fa-cubes fa-lg text-purple-500"></i>
-            <span className="ml-3 text-xl">
+            <span className="ml-3 text-ms">
               How to use CineCapsule 3.0?
-              <p className="mt-2 text-ms text-pink-500">
+              <p className="text-white">
                 Connect your Metamask wallet to use this DApp. Polygon-Mainnet
                 or Mumbai-Testnet network is required.
               </p>
@@ -178,15 +178,15 @@ export default function Footer() {
           sm:flex-row
         "
         >
-          <p className="text-green-500 text-sm text-center sm:text-left">
+          <p className="text-white text-sm text-center sm:text-left">
             CineCapsule 3.0 © 2021 Copyright | Built with ❤️ by :
             <a
-              href="https://www.linkedin.com/in/marjorie-ngoupende-dev/"
-              className="text-gray-100 ml-1 hover:text-pink-400"
+              href=""
+              className="text-gray-100 ml-1 hover:text-red-400"
               target="_blank"
               rel="noreferrer"
             >
-              Marjorie Ngoupende
+              CineCapsule Dev Team
             </a>
           </p>
           <span

@@ -5,4 +5,14 @@
 body {
     background-color: #191920    ;
 }
+h1 {
+    color: #ff2d3e  !important;
+}
 
+button {
+    background-color: #ff2d3e  !important;
+    color: #fff !important;
+}
+input{
+    color: #fff  !important;
+}

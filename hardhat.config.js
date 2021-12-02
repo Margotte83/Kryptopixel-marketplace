@@ -1,7 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
 const fs = require('fs');
 const privateKey = fs.readFileSync(".env").toString().trim() || "";
-//const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
+const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
 
 module.exports = {
   defaultNetwork: "hardhat",
@@ -12,13 +12,13 @@ module.exports = {
     
     mumbai: {
       // Infura
-      //url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
-      url: "https://rpc-mumbai.maticvigil.com",
+      url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
+      url: "https://matic-mumbai.chainstacklabs.com",
       accounts: [privateKey]
     },
     matic: {
       // Infura
-      //url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
+      url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
       url: "https://rpc-mainnet.maticvigil.com",
       accounts: [privateKey]
     }
