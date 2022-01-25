@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 body {
-    background-color: #191920    ;
+    background-color:#3F0071   ;
 }
 h1 {
-    color: #ff2d3e  !important;
+    color: #FF008E  !important;
 }
 
 button {
-    background-color: #ff2d3e  !important;
+    background-color:#FF008E  !important;
     color: #fff !important;
 }
 input{
