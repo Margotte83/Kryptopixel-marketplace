@@ -159,7 +159,7 @@ export default function Footer() {
             <span className="ml-3 text-ms">
               How to use this DApp?
               <p className="text-white">
-                Connect your Metamask wallet to use this DApp. Polygon-Mainnet
+                Connect your Metamask 🦊 wallet to use this DApp. Polygon-Mainnet
                 or Mumbai-Testnet network is required.
               </p>
             </span>

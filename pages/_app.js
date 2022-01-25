@@ -8,7 +8,7 @@ function Marketplace({ Component, pageProps }) {
     <div>
       <nav className="border-b p-6 bg-black">
         <p className="text-4xl font-bold text-pink-600">
-          KryptoPixel Marketplace
+          KryptoPixel Marketplace 🖼
         </p>
         <p className="text-2xl mb-4  text-indigo-500">
           An original marketplace to buy and sell NFTs{" "}
