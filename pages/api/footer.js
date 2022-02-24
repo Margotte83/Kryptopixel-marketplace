@@ -1,4 +1,5 @@
 /*Page footer with copyright*/
+import React from "react";
 
 export default function Footer() {
   return (
@@ -159,14 +160,14 @@ export default function Footer() {
             <span className="ml-3 text-ms">
               How to use this DApp?
               <p className="text-white">
-                Connect your Metamask 🦊 wallet to use this DApp. Polygon-Mainnet
-                or Mumbai-Testnet network is required.
+                Connect your Metamask 🦊 wallet to use this DApp.
+                Polygon-Mainnet or Mumbai-Testnet network is required.
               </p>
             </span>
           </a>
         </div>
       </div>
-      <div className="bg-black">
+      <div className="">
         <div
           className="
           container
@@ -196,23 +197,7 @@ export default function Footer() {
             justify-center
             sm:justify-start
           "
-          >
-            <a href="" className="text-gray-500">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="" className="ml-3 text-gray-500">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="" className="ml-3 text-gray-500">
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-            <a href="" className="ml-3 text-gray-500">
-              <i className="fab fa-youtube"></i>
-            </a>
-            <a href="" className="ml-3 text-gray-500">
-              <i className="fab fa-instagram"></i>
-            </a>
-          </span>
+          ></span>
         </div>
       </div>
     </footer>
