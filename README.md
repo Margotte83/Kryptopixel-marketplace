@@ -34,7 +34,7 @@ To run this project locally, follow these steps.
 ```sh
 git clone https://github.com/Margotte83/Kryptopixel-marketplace.git
 
-cd polygon-ethereum-nextjs-marketplace
+cd Kryptopixel-marketplace
 
 # install using NPM or Yarn
 npm install
